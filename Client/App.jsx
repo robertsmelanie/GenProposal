@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import JobInputForm from './components/JobInputForm';
-import ProposalOutput from './components/ProposalOutput';
+import JobInputForm from './Components/JobInputForm';
+import ProposalOutput from './Components/ProposalOutput';
 
 function App() {
     const [proposal, setProposal] = useState('');

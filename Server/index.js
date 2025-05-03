@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import generateProposalRoute from './routes/generateProposal.js';
+import generateProposalRoute from './Routes/generateProposal.js';
 
 dotenv.config();
 const app = express();
